@@ -12,3 +12,7 @@ plotRandomNormals <- function(numpts=1000, numbins=15, mu=24, sigma=3, meanColor
        Mean_x = mean_x,
        SD_x = sd(rand_x) )
 }
+
+## Test the function
+
+plotRandomNormals()
